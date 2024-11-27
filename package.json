@@ -6,7 +6,8 @@
     "test": "test"
   },
   "scripts": {
-    "deploy": "npx truffle migrate --network sepolia"
+    "deploy": "npx truffle migrate --network sepolia",
+    "query": "npx truffle exec scripts/query.js --network sepolia"
   },
   "author": "",
   "license": "ISC",
